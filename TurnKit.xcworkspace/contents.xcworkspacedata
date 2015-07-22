@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "iOS">
+      <FileRef
+         location = "group:iOS/TurnKitiOS/TurnKitiOS.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "Mac">
+      <FileRef
+         location = "group:Mac/TurnKitMac/TurnKitMac.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "SharedCode">
+      <FileRef
+         location = "group:SharedCode/TurnKit.swift">
+      </FileRef>
+   </Group>
+</Workspace>

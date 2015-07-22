@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4B3EB701B5F47D5006EC220 /* TurnKitMac.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B3EB6F1B5F47D5006EC220 /* TurnKitMac.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4B3EB771B5F47D5006EC220 /* TurnKitMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4B3EB6C1B5F47D5006EC220 /* TurnKitMac.framework */; };
+		F4B3EB7C1B5F47D5006EC220 /* TurnKitMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B3EB7B1B5F47D5006EC220 /* TurnKitMacTests.swift */; };
+		F4B3EB881B5F48B9006EC220 /* TurnKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B3EB861B5F48B9006EC220 /* TurnKit.swift */; };
+		F4B3EB8F1B5F4944006EC220 /* SharedCode in Sources */ = {isa = PBXBuildFile; fileRef = F4B3EB8E1B5F4944006EC220 /* SharedCode */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4B3EB781B5F47D5006EC220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4B3EB631B5F47D5006EC220 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B3EB6B1B5F47D5006EC220;
+			remoteInfo = TurnKitMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4B3EB6C1B5F47D5006EC220 /* TurnKitMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TurnKitMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B3EB6F1B5F47D5006EC220 /* TurnKitMac.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TurnKitMac.h; sourceTree = "<group>"; };
+		F4B3EB711B5F47D5006EC220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B3EB761B5F47D5006EC220 /* TurnKitMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnKitMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B3EB7B1B5F47D5006EC220 /* TurnKitMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnKitMacTests.swift; sourceTree = "<group>"; };
+		F4B3EB7D1B5F47D5006EC220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B3EB861B5F48B9006EC220 /* TurnKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnKit.swift; sourceTree = "<group>"; };
+		F4B3EB8E1B5F4944006EC220 /* SharedCode */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SharedCode; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4B3EB681B5F47D5006EC220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B3EB731B5F47D5006EC220 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B3EB771B5F47D5006EC220 /* TurnKitMac.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4B3EB621B5F47D5006EC220 = {
+			isa = PBXGroup;
+			children = (
+				F4B3EB8E1B5F4944006EC220 /* SharedCode */,
+				F4B3EB861B5F48B9006EC220 /* TurnKit.swift */,
+				F4B3EB6E1B5F47D5006EC220 /* TurnKitMac */,
+				F4B3EB7A1B5F47D5006EC220 /* TurnKitMacTests */,
+				F4B3EB6D1B5F47D5006EC220 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4B3EB6D1B5F47D5006EC220 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4B3EB6C1B5F47D5006EC220 /* TurnKitMac.framework */,
+				F4B3EB761B5F47D5006EC220 /* TurnKitMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4B3EB6E1B5F47D5006EC220 /* TurnKitMac */ = {
+			isa = PBXGroup;
+			children = (
+				F4B3EB6F1B5F47D5006EC220 /* TurnKitMac.h */,
+				F4B3EB711B5F47D5006EC220 /* Info.plist */,
+			);
+			path = TurnKitMac;
+			sourceTree = "<group>";
+		};
+		F4B3EB7A1B5F47D5006EC220 /* TurnKitMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4B3EB7B1B5F47D5006EC220 /* TurnKitMacTests.swift */,
+				F4B3EB7D1B5F47D5006EC220 /* Info.plist */,
+			);
+			path = TurnKitMacTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F4B3EB691B5F47D5006EC220 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B3EB701B5F47D5006EC220 /* TurnKitMac.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F4B3EB6B1B5F47D5006EC220 /* TurnKitMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B3EB801B5F47D5006EC220 /* Build configuration list for PBXNativeTarget "TurnKitMac" */;
+			buildPhases = (
+				F4B3EB671B5F47D5006EC220 /* Sources */,
+				F4B3EB681B5F47D5006EC220 /* Frameworks */,
+				F4B3EB691B5F47D5006EC220 /* Headers */,
+				F4B3EB6A1B5F47D5006EC220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurnKitMac;
+			productName = TurnKitMac;
+			productReference = F4B3EB6C1B5F47D5006EC220 /* TurnKitMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4B3EB751B5F47D5006EC220 /* TurnKitMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4B3EB831B5F47D5006EC220 /* Build configuration list for PBXNativeTarget "TurnKitMacTests" */;
+			buildPhases = (
+				F4B3EB721B5F47D5006EC220 /* Sources */,
+				F4B3EB731B5F47D5006EC220 /* Frameworks */,
+				F4B3EB741B5F47D5006EC220 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4B3EB791B5F47D5006EC220 /* PBXTargetDependency */,
+			);
+			name = TurnKitMacTests;
+			productName = TurnKitMacTests;
+			productReference = F4B3EB761B5F47D5006EC220 /* TurnKitMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4B3EB631B5F47D5006EC220 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Team Awesome McPants";
+				TargetAttributes = {
+					F4B3EB6B1B5F47D5006EC220 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					F4B3EB751B5F47D5006EC220 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = F4B3EB661B5F47D5006EC220 /* Build configuration list for PBXProject "TurnKitMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F4B3EB621B5F47D5006EC220;
+			productRefGroup = F4B3EB6D1B5F47D5006EC220 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4B3EB6B1B5F47D5006EC220 /* TurnKitMac */,
+				F4B3EB751B5F47D5006EC220 /* TurnKitMacTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4B3EB6A1B5F47D5006EC220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B3EB741B5F47D5006EC220 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4B3EB671B5F47D5006EC220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B3EB8F1B5F4944006EC220 /* SharedCode in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4B3EB721B5F47D5006EC220 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4B3EB7C1B5F47D5006EC220 /* TurnKitMacTests.swift in Sources */,
+				F4B3EB881B5F48B9006EC220 /* TurnKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4B3EB791B5F47D5006EC220 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4B3EB6B1B5F47D5006EC220 /* TurnKitMac */;
+			targetProxy = F4B3EB781B5F47D5006EC220 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F4B3EB7E1B5F47D5006EC220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4B3EB7F1B5F47D5006EC220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4B3EB811B5F47D5006EC220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = TurnKitMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamawesomemcpants.TurnKitMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4B3EB821B5F47D5006EC220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = TurnKitMac/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamawesomemcpants.TurnKitMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F4B3EB841B5F47D5006EC220 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TurnKitMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamawesomemcpants.TurnKitMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4B3EB851B5F47D5006EC220 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TurnKitMacTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teamawesomemcpants.TurnKitMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4B3EB661B5F47D5006EC220 /* Build configuration list for PBXProject "TurnKitMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B3EB7E1B5F47D5006EC220 /* Debug */,
+				F4B3EB7F1B5F47D5006EC220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4B3EB801B5F47D5006EC220 /* Build configuration list for PBXNativeTarget "TurnKitMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B3EB811B5F47D5006EC220 /* Debug */,
+				F4B3EB821B5F47D5006EC220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4B3EB831B5F47D5006EC220 /* Build configuration list for PBXNativeTarget "TurnKitMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B3EB841B5F47D5006EC220 /* Debug */,
+				F4B3EB851B5F47D5006EC220 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4B3EB631B5F47D5006EC220 /* Project object */;
+}
