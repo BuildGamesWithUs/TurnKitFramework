@@ -1,0 +1,1276 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6DEE6C1B615C080078DAAF /* TurnKitOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6DEE6B1B615C080078DAAF /* TurnKitOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F6DEE721B615C080078DAAF /* TurnKitOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6DEE671B615C080078DAAF /* TurnKitOSX.framework */; };
+		1F6DEE791B615C080078DAAF /* TurnKitOSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEE781B615C080078DAAF /* TurnKitOSXTests.swift */; };
+		1F6DEE8A1B615C3B0078DAAF /* TurnKitiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6DEE891B615C3B0078DAAF /* TurnKitiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F6DEE901B615C3B0078DAAF /* TurnKitiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6DEE851B615C3B0078DAAF /* TurnKitiOS.framework */; };
+		1F6DEE971B615C3B0078DAAF /* TurnKitiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEE961B615C3B0078DAAF /* TurnKitiOSTests.swift */; };
+		1F6DEEA01B615E650078DAAF /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DEE9F1B615E650078DAAF /* Common.xcconfig */; };
+		1F6DEEA11B615E650078DAAF /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DEE9F1B615E650078DAAF /* Common.xcconfig */; };
+		1F6DEEA21B615E650078DAAF /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DEE9F1B615E650078DAAF /* Common.xcconfig */; };
+		1F6DEEA31B615E650078DAAF /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DEE9F1B615E650078DAAF /* Common.xcconfig */; };
+		1F6DEEB11B6165C00078DAAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEEB01B6165C00078DAAF /* AppDelegate.swift */; };
+		1F6DEEB31B6165C00078DAAF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DEEB21B6165C00078DAAF /* GameScene.sks */; };
+		1F6DEEB51B6165C00078DAAF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEEB41B6165C00078DAAF /* GameScene.swift */; };
+		1F6DEEB71B6165C00078DAAF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEEB61B6165C00078DAAF /* GameViewController.swift */; };
+		1F6DEEBA1B6165C00078DAAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DEEB81B6165C00078DAAF /* Main.storyboard */; };
+		1F6DEEBC1B6165C00078DAAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DEEBB1B6165C00078DAAF /* Images.xcassets */; };
+		1F6DEEBF1B6165C00078DAAF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DEEBD1B6165C00078DAAF /* LaunchScreen.xib */; };
+		1F6DEECB1B6165C00078DAAF /* Turn_Kit_iOS_SampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEECA1B6165C00078DAAF /* Turn_Kit_iOS_SampleAppTests.swift */; };
+		1F6DEEDB1B6165F80078DAAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEEDA1B6165F80078DAAF /* AppDelegate.swift */; };
+		1F6DEEDD1B6165F80078DAAF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEEDC1B6165F80078DAAF /* GameScene.swift */; };
+		1F6DEEDF1B6165F80078DAAF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DEEDE1B6165F80078DAAF /* GameScene.sks */; };
+		1F6DEEE11B6165F80078DAAF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DEEE01B6165F80078DAAF /* Images.xcassets */; };
+		1F6DEEE41B6165F80078DAAF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F6DEEE21B6165F80078DAAF /* MainMenu.xib */; };
+		1F6DEEF01B6165F80078DAAF /* Turn_Kit_OS_Sample_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEEEF1B6165F80078DAAF /* Turn_Kit_OS_Sample_AppTests.swift */; };
+		1F6DEEF81B61661B0078DAAF /* TurnKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEEF71B61661B0078DAAF /* TurnKit.swift */; };
+		1F6DEEF91B61661B0078DAAF /* TurnKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEEF71B61661B0078DAAF /* TurnKit.swift */; };
+		1F6DEEFA1B61661B0078DAAF /* TurnKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEEF71B61661B0078DAAF /* TurnKit.swift */; };
+		1F6DEEFB1B61661B0078DAAF /* TurnKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEEF71B61661B0078DAAF /* TurnKit.swift */; };
+		1F6DEEFD1B6166720078DAAF /* TurnKitiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6DEE851B615C3B0078DAAF /* TurnKitiOS.framework */; };
+		1F6DEEFE1B6166790078DAAF /* TurnKitOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6DEE671B615C080078DAAF /* TurnKitOSX.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F6DEE731B615C080078DAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6DEE3D1B615BD20078DAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6DEE661B615C080078DAAF;
+			remoteInfo = TurnKitOSX;
+		};
+		1F6DEE911B615C3B0078DAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6DEE3D1B615BD20078DAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6DEE841B615C3B0078DAAF;
+			remoteInfo = TurnKitiOS;
+		};
+		1F6DEEC51B6165C00078DAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6DEE3D1B615BD20078DAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6DEEAB1B6165C00078DAAF;
+			remoteInfo = "Turn Kit iOS SampleApp";
+		};
+		1F6DEEEA1B6165F80078DAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6DEE3D1B615BD20078DAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6DEED51B6165F80078DAAF;
+			remoteInfo = "Turn Kit OS Sample App";
+		};
+		1F6DEEFF1B61668F0078DAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6DEE3D1B615BD20078DAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6DEE841B615C3B0078DAAF;
+			remoteInfo = TurnKitiOS;
+		};
+		1F6DEF011B6166980078DAAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6DEE3D1B615BD20078DAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6DEE661B615C080078DAAF;
+			remoteInfo = TurnKitOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F6DEE671B615C080078DAAF /* TurnKitOSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TurnKitOSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6DEE6A1B615C080078DAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6DEE6B1B615C080078DAAF /* TurnKitOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TurnKitOSX.h; sourceTree = "<group>"; };
+		1F6DEE711B615C080078DAAF /* TurnKitOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnKitOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6DEE771B615C080078DAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6DEE781B615C080078DAAF /* TurnKitOSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnKitOSXTests.swift; sourceTree = "<group>"; };
+		1F6DEE851B615C3B0078DAAF /* TurnKitiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TurnKitiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6DEE881B615C3B0078DAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6DEE891B615C3B0078DAAF /* TurnKitiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TurnKitiOS.h; sourceTree = "<group>"; };
+		1F6DEE8F1B615C3B0078DAAF /* TurnKitiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TurnKitiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6DEE951B615C3B0078DAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6DEE961B615C3B0078DAAF /* TurnKitiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnKitiOSTests.swift; sourceTree = "<group>"; };
+		1F6DEE9F1B615E650078DAAF /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		1F6DEEA41B615ED40078DAAF /* iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = iOS.xcconfig; sourceTree = "<group>"; };
+		1F6DEEA51B615EE30078DAAF /* OSX.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = OSX.xcconfig; sourceTree = "<group>"; };
+		1F6DEEAC1B6165C00078DAAF /* Turn Kit iOS SampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turn Kit iOS SampleApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6DEEAF1B6165C00078DAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6DEEB01B6165C00078DAAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F6DEEB21B6165C00078DAAF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1F6DEEB41B6165C00078DAAF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1F6DEEB61B6165C00078DAAF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1F6DEEB91B6165C00078DAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F6DEEBB1B6165C00078DAAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F6DEEBE1B6165C00078DAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1F6DEEC41B6165C00078DAAF /* Turn Kit iOS SampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turn Kit iOS SampleAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6DEEC91B6165C00078DAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6DEECA1B6165C00078DAAF /* Turn_Kit_iOS_SampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn_Kit_iOS_SampleAppTests.swift; sourceTree = "<group>"; };
+		1F6DEED61B6165F80078DAAF /* Turn Kit OS Sample App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turn Kit OS Sample App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6DEED91B6165F80078DAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6DEEDA1B6165F80078DAAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F6DEEDC1B6165F80078DAAF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1F6DEEDE1B6165F80078DAAF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1F6DEEE01B6165F80078DAAF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F6DEEE31B6165F80078DAAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F6DEEE91B6165F80078DAAF /* Turn Kit OS Sample AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Turn Kit OS Sample AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6DEEEE1B6165F80078DAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6DEEEF1B6165F80078DAAF /* Turn_Kit_OS_Sample_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn_Kit_OS_Sample_AppTests.swift; sourceTree = "<group>"; };
+		1F6DEEF71B61661B0078DAAF /* TurnKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnKit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F6DEE631B615C080078DAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEE6E1B615C080078DAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEE721B615C080078DAAF /* TurnKitOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEE811B615C3B0078DAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEE8C1B615C3B0078DAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEE901B615C3B0078DAAF /* TurnKitiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEEA91B6165C00078DAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEFD1B6166720078DAAF /* TurnKitiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEEC11B6165C00078DAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEED31B6165F80078DAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEFE1B6166790078DAAF /* TurnKitOSX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEEE61B6165F80078DAAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6DEE3C1B615BD20078DAAF = {
+			isa = PBXGroup;
+			children = (
+				1F6DEE9F1B615E650078DAAF /* Common.xcconfig */,
+				1F6DEEA41B615ED40078DAAF /* iOS.xcconfig */,
+				1F6DEEA51B615EE30078DAAF /* OSX.xcconfig */,
+				1F6DEE861B615C3B0078DAAF /* TurnKitiOS */,
+				1F6DEE931B615C3B0078DAAF /* TurnKitiOSTests */,
+				1F6DEE681B615C080078DAAF /* TurnKitOSX */,
+				1F6DEE751B615C080078DAAF /* TurnKitOSXTests */,
+				1F6DEE9E1B615C480078DAAF /* TurnKitShared */,
+				1F6DEEAD1B6165C00078DAAF /* Turn Kit iOS SampleApp */,
+				1F6DEEC71B6165C00078DAAF /* Turn Kit iOS SampleAppTests */,
+				1F6DEED71B6165F80078DAAF /* Turn Kit OS Sample App */,
+				1F6DEEEC1B6165F80078DAAF /* Turn Kit OS Sample AppTests */,
+				1F6DEE471B615BD20078DAAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F6DEE471B615BD20078DAAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEE671B615C080078DAAF /* TurnKitOSX.framework */,
+				1F6DEE711B615C080078DAAF /* TurnKitOSXTests.xctest */,
+				1F6DEE851B615C3B0078DAAF /* TurnKitiOS.framework */,
+				1F6DEE8F1B615C3B0078DAAF /* TurnKitiOSTests.xctest */,
+				1F6DEEAC1B6165C00078DAAF /* Turn Kit iOS SampleApp.app */,
+				1F6DEEC41B6165C00078DAAF /* Turn Kit iOS SampleAppTests.xctest */,
+				1F6DEED61B6165F80078DAAF /* Turn Kit OS Sample App.app */,
+				1F6DEEE91B6165F80078DAAF /* Turn Kit OS Sample AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F6DEE681B615C080078DAAF /* TurnKitOSX */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEE6B1B615C080078DAAF /* TurnKitOSX.h */,
+				1F6DEE691B615C080078DAAF /* Supporting Files */,
+			);
+			path = TurnKitOSX;
+			sourceTree = "<group>";
+		};
+		1F6DEE691B615C080078DAAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEE6A1B615C080078DAAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F6DEE751B615C080078DAAF /* TurnKitOSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEE781B615C080078DAAF /* TurnKitOSXTests.swift */,
+				1F6DEE761B615C080078DAAF /* Supporting Files */,
+			);
+			path = TurnKitOSXTests;
+			sourceTree = "<group>";
+		};
+		1F6DEE761B615C080078DAAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEE771B615C080078DAAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F6DEE861B615C3B0078DAAF /* TurnKitiOS */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEE891B615C3B0078DAAF /* TurnKitiOS.h */,
+				1F6DEE871B615C3B0078DAAF /* Supporting Files */,
+			);
+			path = TurnKitiOS;
+			sourceTree = "<group>";
+		};
+		1F6DEE871B615C3B0078DAAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEE881B615C3B0078DAAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F6DEE931B615C3B0078DAAF /* TurnKitiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEE961B615C3B0078DAAF /* TurnKitiOSTests.swift */,
+				1F6DEE941B615C3B0078DAAF /* Supporting Files */,
+			);
+			path = TurnKitiOSTests;
+			sourceTree = "<group>";
+		};
+		1F6DEE941B615C3B0078DAAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEE951B615C3B0078DAAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F6DEE9E1B615C480078DAAF /* TurnKitShared */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEEF71B61661B0078DAAF /* TurnKit.swift */,
+			);
+			name = TurnKitShared;
+			path = TurnKitiOSTests;
+			sourceTree = "<group>";
+		};
+		1F6DEEAD1B6165C00078DAAF /* Turn Kit iOS SampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEEB01B6165C00078DAAF /* AppDelegate.swift */,
+				1F6DEEB21B6165C00078DAAF /* GameScene.sks */,
+				1F6DEEB41B6165C00078DAAF /* GameScene.swift */,
+				1F6DEEB61B6165C00078DAAF /* GameViewController.swift */,
+				1F6DEEB81B6165C00078DAAF /* Main.storyboard */,
+				1F6DEEBB1B6165C00078DAAF /* Images.xcassets */,
+				1F6DEEBD1B6165C00078DAAF /* LaunchScreen.xib */,
+				1F6DEEAE1B6165C00078DAAF /* Supporting Files */,
+			);
+			path = "Turn Kit iOS SampleApp";
+			sourceTree = "<group>";
+		};
+		1F6DEEAE1B6165C00078DAAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEEAF1B6165C00078DAAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F6DEEC71B6165C00078DAAF /* Turn Kit iOS SampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEECA1B6165C00078DAAF /* Turn_Kit_iOS_SampleAppTests.swift */,
+				1F6DEEC81B6165C00078DAAF /* Supporting Files */,
+			);
+			path = "Turn Kit iOS SampleAppTests";
+			sourceTree = "<group>";
+		};
+		1F6DEEC81B6165C00078DAAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEEC91B6165C00078DAAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F6DEED71B6165F80078DAAF /* Turn Kit OS Sample App */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEEDA1B6165F80078DAAF /* AppDelegate.swift */,
+				1F6DEEDC1B6165F80078DAAF /* GameScene.swift */,
+				1F6DEEDE1B6165F80078DAAF /* GameScene.sks */,
+				1F6DEEE01B6165F80078DAAF /* Images.xcassets */,
+				1F6DEEE21B6165F80078DAAF /* MainMenu.xib */,
+				1F6DEED81B6165F80078DAAF /* Supporting Files */,
+			);
+			path = "Turn Kit OS Sample App";
+			sourceTree = "<group>";
+		};
+		1F6DEED81B6165F80078DAAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEED91B6165F80078DAAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F6DEEEC1B6165F80078DAAF /* Turn Kit OS Sample AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEEEF1B6165F80078DAAF /* Turn_Kit_OS_Sample_AppTests.swift */,
+				1F6DEEED1B6165F80078DAAF /* Supporting Files */,
+			);
+			path = "Turn Kit OS Sample AppTests";
+			sourceTree = "<group>";
+		};
+		1F6DEEED1B6165F80078DAAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6DEEEE1B6165F80078DAAF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F6DEE641B615C080078DAAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEE6C1B615C080078DAAF /* TurnKitOSX.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEE821B615C3B0078DAAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEE8A1B615C3B0078DAAF /* TurnKitiOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F6DEE661B615C080078DAAF /* TurnKitOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6DEE7A1B615C080078DAAF /* Build configuration list for PBXNativeTarget "TurnKitOSX" */;
+			buildPhases = (
+				1F6DEE621B615C080078DAAF /* Sources */,
+				1F6DEE631B615C080078DAAF /* Frameworks */,
+				1F6DEE641B615C080078DAAF /* Headers */,
+				1F6DEE651B615C080078DAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurnKitOSX;
+			productName = TurnKitOSX;
+			productReference = 1F6DEE671B615C080078DAAF /* TurnKitOSX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F6DEE701B615C080078DAAF /* TurnKitOSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6DEE7D1B615C080078DAAF /* Build configuration list for PBXNativeTarget "TurnKitOSXTests" */;
+			buildPhases = (
+				1F6DEE6D1B615C080078DAAF /* Sources */,
+				1F6DEE6E1B615C080078DAAF /* Frameworks */,
+				1F6DEE6F1B615C080078DAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6DEE741B615C080078DAAF /* PBXTargetDependency */,
+			);
+			name = TurnKitOSXTests;
+			productName = TurnKitOSXTests;
+			productReference = 1F6DEE711B615C080078DAAF /* TurnKitOSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F6DEE841B615C3B0078DAAF /* TurnKitiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6DEE981B615C3B0078DAAF /* Build configuration list for PBXNativeTarget "TurnKitiOS" */;
+			buildPhases = (
+				1F6DEE801B615C3B0078DAAF /* Sources */,
+				1F6DEE811B615C3B0078DAAF /* Frameworks */,
+				1F6DEE821B615C3B0078DAAF /* Headers */,
+				1F6DEE831B615C3B0078DAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TurnKitiOS;
+			productName = TurnKitiOS;
+			productReference = 1F6DEE851B615C3B0078DAAF /* TurnKitiOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1F6DEE8E1B615C3B0078DAAF /* TurnKitiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6DEE9B1B615C3B0078DAAF /* Build configuration list for PBXNativeTarget "TurnKitiOSTests" */;
+			buildPhases = (
+				1F6DEE8B1B615C3B0078DAAF /* Sources */,
+				1F6DEE8C1B615C3B0078DAAF /* Frameworks */,
+				1F6DEE8D1B615C3B0078DAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6DEE921B615C3B0078DAAF /* PBXTargetDependency */,
+			);
+			name = TurnKitiOSTests;
+			productName = TurnKitiOSTests;
+			productReference = 1F6DEE8F1B615C3B0078DAAF /* TurnKitiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F6DEEAB1B6165C00078DAAF /* Turn Kit iOS SampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6DEECC1B6165C00078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit iOS SampleApp" */;
+			buildPhases = (
+				1F6DEEA81B6165C00078DAAF /* Sources */,
+				1F6DEEA91B6165C00078DAAF /* Frameworks */,
+				1F6DEEAA1B6165C00078DAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6DEF001B61668F0078DAAF /* PBXTargetDependency */,
+			);
+			name = "Turn Kit iOS SampleApp";
+			productName = "Turn Kit iOS SampleApp";
+			productReference = 1F6DEEAC1B6165C00078DAAF /* Turn Kit iOS SampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F6DEEC31B6165C00078DAAF /* Turn Kit iOS SampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6DEECF1B6165C00078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit iOS SampleAppTests" */;
+			buildPhases = (
+				1F6DEEC01B6165C00078DAAF /* Sources */,
+				1F6DEEC11B6165C00078DAAF /* Frameworks */,
+				1F6DEEC21B6165C00078DAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6DEEC61B6165C00078DAAF /* PBXTargetDependency */,
+			);
+			name = "Turn Kit iOS SampleAppTests";
+			productName = "Turn Kit iOS SampleAppTests";
+			productReference = 1F6DEEC41B6165C00078DAAF /* Turn Kit iOS SampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F6DEED51B6165F80078DAAF /* Turn Kit OS Sample App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6DEEF11B6165F80078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit OS Sample App" */;
+			buildPhases = (
+				1F6DEED21B6165F80078DAAF /* Sources */,
+				1F6DEED31B6165F80078DAAF /* Frameworks */,
+				1F6DEED41B6165F80078DAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6DEF021B6166980078DAAF /* PBXTargetDependency */,
+			);
+			name = "Turn Kit OS Sample App";
+			productName = "Turn Kit OS Sample App";
+			productReference = 1F6DEED61B6165F80078DAAF /* Turn Kit OS Sample App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F6DEEE81B6165F80078DAAF /* Turn Kit OS Sample AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6DEEF41B6165F80078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit OS Sample AppTests" */;
+			buildPhases = (
+				1F6DEEE51B6165F80078DAAF /* Sources */,
+				1F6DEEE61B6165F80078DAAF /* Frameworks */,
+				1F6DEEE71B6165F80078DAAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6DEEEB1B6165F80078DAAF /* PBXTargetDependency */,
+			);
+			name = "Turn Kit OS Sample AppTests";
+			productName = "Turn Kit OS Sample AppTests";
+			productReference = 1F6DEEE91B6165F80078DAAF /* Turn Kit OS Sample AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F6DEE3D1B615BD20078DAAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = TeamAwesomeMcPants;
+				TargetAttributes = {
+					1F6DEE661B615C080078DAAF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1F6DEE701B615C080078DAAF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1F6DEE841B615C3B0078DAAF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1F6DEE8E1B615C3B0078DAAF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1F6DEEAB1B6165C00078DAAF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1F6DEEC31B6165C00078DAAF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1F6DEEAB1B6165C00078DAAF;
+					};
+					1F6DEED51B6165F80078DAAF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					1F6DEEE81B6165F80078DAAF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 1F6DEED51B6165F80078DAAF;
+					};
+				};
+			};
+			buildConfigurationList = 1F6DEE401B615BD20078DAAF /* Build configuration list for PBXProject "TurnKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F6DEE3C1B615BD20078DAAF;
+			productRefGroup = 1F6DEE471B615BD20078DAAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F6DEE841B615C3B0078DAAF /* TurnKitiOS */,
+				1F6DEE8E1B615C3B0078DAAF /* TurnKitiOSTests */,
+				1F6DEE661B615C080078DAAF /* TurnKitOSX */,
+				1F6DEE701B615C080078DAAF /* TurnKitOSXTests */,
+				1F6DEEAB1B6165C00078DAAF /* Turn Kit iOS SampleApp */,
+				1F6DEEC31B6165C00078DAAF /* Turn Kit iOS SampleAppTests */,
+				1F6DEED51B6165F80078DAAF /* Turn Kit OS Sample App */,
+				1F6DEEE81B6165F80078DAAF /* Turn Kit OS Sample AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F6DEE651B615C080078DAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEA01B615E650078DAAF /* Common.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEE6F1B615C080078DAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEA11B615E650078DAAF /* Common.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEE831B615C3B0078DAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEA21B615E650078DAAF /* Common.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEE8D1B615C3B0078DAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEA31B615E650078DAAF /* Common.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEEAA1B6165C00078DAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEBF1B6165C00078DAAF /* LaunchScreen.xib in Resources */,
+				1F6DEEBC1B6165C00078DAAF /* Images.xcassets in Resources */,
+				1F6DEEB31B6165C00078DAAF /* GameScene.sks in Resources */,
+				1F6DEEBA1B6165C00078DAAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEEC21B6165C00078DAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEED41B6165F80078DAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEDF1B6165F80078DAAF /* GameScene.sks in Resources */,
+				1F6DEEE11B6165F80078DAAF /* Images.xcassets in Resources */,
+				1F6DEEE41B6165F80078DAAF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEEE71B6165F80078DAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F6DEE621B615C080078DAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEF81B61661B0078DAAF /* TurnKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEE6D1B615C080078DAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEE791B615C080078DAAF /* TurnKitOSXTests.swift in Sources */,
+				1F6DEEF91B61661B0078DAAF /* TurnKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEE801B615C3B0078DAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEFA1B61661B0078DAAF /* TurnKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEE8B1B615C3B0078DAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEE971B615C3B0078DAAF /* TurnKitiOSTests.swift in Sources */,
+				1F6DEEFB1B61661B0078DAAF /* TurnKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEEA81B6165C00078DAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEB51B6165C00078DAAF /* GameScene.swift in Sources */,
+				1F6DEEB71B6165C00078DAAF /* GameViewController.swift in Sources */,
+				1F6DEEB11B6165C00078DAAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEEC01B6165C00078DAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEECB1B6165C00078DAAF /* Turn_Kit_iOS_SampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEED21B6165F80078DAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEDD1B6165F80078DAAF /* GameScene.swift in Sources */,
+				1F6DEEDB1B6165F80078DAAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6DEEE51B6165F80078DAAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6DEEF01B6165F80078DAAF /* Turn_Kit_OS_Sample_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F6DEE741B615C080078DAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6DEE661B615C080078DAAF /* TurnKitOSX */;
+			targetProxy = 1F6DEE731B615C080078DAAF /* PBXContainerItemProxy */;
+		};
+		1F6DEE921B615C3B0078DAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6DEE841B615C3B0078DAAF /* TurnKitiOS */;
+			targetProxy = 1F6DEE911B615C3B0078DAAF /* PBXContainerItemProxy */;
+		};
+		1F6DEEC61B6165C00078DAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6DEEAB1B6165C00078DAAF /* Turn Kit iOS SampleApp */;
+			targetProxy = 1F6DEEC51B6165C00078DAAF /* PBXContainerItemProxy */;
+		};
+		1F6DEEEB1B6165F80078DAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6DEED51B6165F80078DAAF /* Turn Kit OS Sample App */;
+			targetProxy = 1F6DEEEA1B6165F80078DAAF /* PBXContainerItemProxy */;
+		};
+		1F6DEF001B61668F0078DAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6DEE841B615C3B0078DAAF /* TurnKitiOS */;
+			targetProxy = 1F6DEEFF1B61668F0078DAAF /* PBXContainerItemProxy */;
+		};
+		1F6DEF021B6166980078DAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6DEE661B615C080078DAAF /* TurnKitOSX */;
+			targetProxy = 1F6DEF011B6166980078DAAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F6DEEB81B6165C00078DAAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6DEEB91B6165C00078DAAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F6DEEBD1B6165C00078DAAF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6DEEBE1B6165C00078DAAF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		1F6DEEE21B6165F80078DAAF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6DEEE31B6165F80078DAAF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F6DEE5A1B615BD20078DAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEE9F1B615E650078DAAF /* Common.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1F6DEE5B1B615BD20078DAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEE9F1B615E650078DAAF /* Common.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1F6DEE7B1B615C080078DAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA51B615EE30078DAAF /* OSX.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurnKitOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F6DEE7C1B615C080078DAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA51B615EE30078DAAF /* OSX.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = TurnKitOSX/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1F6DEE7E1B615C080078DAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA51B615EE30078DAAF /* OSX.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurnKitOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F6DEE7F1B615C080078DAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA51B615EE30078DAAF /* OSX.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurnKitOSXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F6DEE991B615C3B0078DAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA41B615ED40078DAAF /* iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurnKitiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F6DEE9A1B615C3B0078DAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA41B615ED40078DAAF /* iOS.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = TurnKitiOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1F6DEE9C1B615C3B0078DAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA41B615ED40078DAAF /* iOS.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurnKitiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F6DEE9D1B615C3B0078DAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA41B615ED40078DAAF /* iOS.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TurnKitiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F6DEECD1B6165C00078DAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA41B615ED40078DAAF /* iOS.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Turn Kit iOS SampleApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F6DEECE1B6165C00078DAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Turn Kit iOS SampleApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F6DEED01B6165C00078DAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA41B615ED40078DAAF /* iOS.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Turn Kit iOS SampleAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turn Kit iOS SampleApp.app/Turn Kit iOS SampleApp";
+			};
+			name = Debug;
+		};
+		1F6DEED11B6165C00078DAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Turn Kit iOS SampleAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turn Kit iOS SampleApp.app/Turn Kit iOS SampleApp";
+			};
+			name = Release;
+		};
+		1F6DEEF21B6165F80078DAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA51B615EE30078DAAF /* OSX.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Turn Kit OS Sample App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F6DEEF31B6165F80078DAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Turn Kit OS Sample App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F6DEEF51B6165F80078DAAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6DEEA51B615EE30078DAAF /* OSX.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Turn Kit OS Sample AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turn Kit OS Sample App.app/Contents/MacOS/Turn Kit OS Sample App";
+			};
+			name = Debug;
+		};
+		1F6DEEF61B6165F80078DAAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Turn Kit OS Sample AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Turn Kit OS Sample App.app/Contents/MacOS/Turn Kit OS Sample App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F6DEE401B615BD20078DAAF /* Build configuration list for PBXProject "TurnKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6DEE5A1B615BD20078DAAF /* Debug */,
+				1F6DEE5B1B615BD20078DAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6DEE7A1B615C080078DAAF /* Build configuration list for PBXNativeTarget "TurnKitOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6DEE7B1B615C080078DAAF /* Debug */,
+				1F6DEE7C1B615C080078DAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F6DEE7D1B615C080078DAAF /* Build configuration list for PBXNativeTarget "TurnKitOSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6DEE7E1B615C080078DAAF /* Debug */,
+				1F6DEE7F1B615C080078DAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F6DEE981B615C3B0078DAAF /* Build configuration list for PBXNativeTarget "TurnKitiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6DEE991B615C3B0078DAAF /* Debug */,
+				1F6DEE9A1B615C3B0078DAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F6DEE9B1B615C3B0078DAAF /* Build configuration list for PBXNativeTarget "TurnKitiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6DEE9C1B615C3B0078DAAF /* Debug */,
+				1F6DEE9D1B615C3B0078DAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F6DEECC1B6165C00078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit iOS SampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6DEECD1B6165C00078DAAF /* Debug */,
+				1F6DEECE1B6165C00078DAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F6DEECF1B6165C00078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit iOS SampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6DEED01B6165C00078DAAF /* Debug */,
+				1F6DEED11B6165C00078DAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F6DEEF11B6165F80078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit OS Sample App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6DEEF21B6165F80078DAAF /* Debug */,
+				1F6DEEF31B6165F80078DAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F6DEEF41B6165F80078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit OS Sample AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6DEEF51B6165F80078DAAF /* Debug */,
+				1F6DEEF61B6165F80078DAAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F6DEE3D1B615BD20078DAAF /* Project object */;
+}
