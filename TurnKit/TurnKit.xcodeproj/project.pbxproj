@@ -6,6 +6,23 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		F480F5821B61ED31008BD64B /* BuildAll */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F480F5851B61ED31008BD64B /* Build configuration list for PBXAggregateTarget "BuildAll" */;
+			buildPhases = (
+			);
+			dependencies = (
+				F480F5871B61ED93008BD64B /* PBXTargetDependency */,
+				F480F5891B61ED93008BD64B /* PBXTargetDependency */,
+				F480F58B1B61ED93008BD64B /* PBXTargetDependency */,
+				F480F58D1B61ED93008BD64B /* PBXTargetDependency */,
+			);
+			name = BuildAll;
+			productName = BuildAll;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1F6DEE6C1B615C080078DAAF /* TurnKitOSX.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6DEE6B1B615C080078DAAF /* TurnKitOSX.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F6DEE721B615C080078DAAF /* TurnKitOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6DEE671B615C080078DAAF /* TurnKitOSX.framework */; };
@@ -81,6 +98,34 @@
 			proxyType = 1;
 			remoteGlobalIDString = 1F6DEE661B615C080078DAAF;
 			remoteInfo = TurnKitOSX;
+		};
+		F480F5861B61ED93008BD64B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6DEE3D1B615BD20078DAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6DEE841B615C3B0078DAAF;
+			remoteInfo = TurnKitiOS;
+		};
+		F480F5881B61ED93008BD64B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6DEE3D1B615BD20078DAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6DEE661B615C080078DAAF;
+			remoteInfo = TurnKitOSX;
+		};
+		F480F58A1B61ED93008BD64B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6DEE3D1B615BD20078DAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6DEEAB1B6165C00078DAAF;
+			remoteInfo = "Turn Kit iOS SampleApp";
+		};
+		F480F58C1B61ED93008BD64B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6DEE3D1B615BD20078DAAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6DEED51B6165F80078DAAF;
+			remoteInfo = "Turn Kit OS Sample App";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -562,6 +607,7 @@
 					};
 					1F6DEE841B615C3B0078DAAF = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = VHWFV2V25Z;
 					};
 					1F6DEE8E1B615C3B0078DAAF = {
 						CreatedOnToolsVersion = 6.4;
@@ -579,6 +625,9 @@
 					1F6DEEE81B6165F80078DAAF = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 1F6DEED51B6165F80078DAAF;
+					};
+					F480F5821B61ED31008BD64B = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
@@ -603,6 +652,7 @@
 				1F6DEEC31B6165C00078DAAF /* Turn Kit iOS SampleAppTests */,
 				1F6DEED51B6165F80078DAAF /* Turn Kit OS Sample App */,
 				1F6DEEE81B6165F80078DAAF /* Turn Kit OS Sample AppTests */,
+				F480F5821B61ED31008BD64B /* BuildAll */,
 			);
 		};
 /* End PBXProject section */
@@ -779,6 +829,26 @@
 			isa = PBXTargetDependency;
 			target = 1F6DEE661B615C080078DAAF /* TurnKitOSX */;
 			targetProxy = 1F6DEF011B6166980078DAAF /* PBXContainerItemProxy */;
+		};
+		F480F5871B61ED93008BD64B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6DEE841B615C3B0078DAAF /* TurnKitiOS */;
+			targetProxy = F480F5861B61ED93008BD64B /* PBXContainerItemProxy */;
+		};
+		F480F5891B61ED93008BD64B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6DEE661B615C080078DAAF /* TurnKitOSX */;
+			targetProxy = F480F5881B61ED93008BD64B /* PBXContainerItemProxy */;
+		};
+		F480F58B1B61ED93008BD64B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6DEEAB1B6165C00078DAAF /* Turn Kit iOS SampleApp */;
+			targetProxy = F480F58A1B61ED93008BD64B /* PBXContainerItemProxy */;
+		};
+		F480F58D1B61ED93008BD64B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6DEED51B6165F80078DAAF /* Turn Kit OS Sample App */;
+			targetProxy = F480F58C1B61ED93008BD64B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -993,6 +1063,7 @@
 			baseConfigurationReference = 1F6DEEA41B615ED40078DAAF /* iOS.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1015,6 +1086,7 @@
 			baseConfigurationReference = 1F6DEEA41B615ED40078DAAF /* iOS.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -1195,6 +1267,20 @@
 			};
 			name = Release;
 		};
+		F480F5831B61ED31008BD64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F480F5841B61ED31008BD64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1278,6 +1364,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		F480F5851B61ED31008BD64B /* Build configuration list for PBXAggregateTarget "BuildAll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F480F5831B61ED31008BD64B /* Debug */,
+				F480F5841B61ED31008BD64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
