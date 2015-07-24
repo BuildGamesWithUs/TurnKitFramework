@@ -550,6 +550,7 @@
 		1F6DEE3D1B615BD20078DAAF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = TeamAwesomeMcPants;
 				TargetAttributes = {
@@ -1213,6 +1214,7 @@
 				1F6DEE7C1B615C080078DAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F6DEE7D1B615C080078DAAF /* Build configuration list for PBXNativeTarget "TurnKitOSXTests" */ = {
 			isa = XCConfigurationList;
@@ -1221,6 +1223,7 @@
 				1F6DEE7F1B615C080078DAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F6DEE981B615C3B0078DAAF /* Build configuration list for PBXNativeTarget "TurnKitiOS" */ = {
 			isa = XCConfigurationList;
@@ -1229,6 +1232,7 @@
 				1F6DEE9A1B615C3B0078DAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F6DEE9B1B615C3B0078DAAF /* Build configuration list for PBXNativeTarget "TurnKitiOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1237,6 +1241,7 @@
 				1F6DEE9D1B615C3B0078DAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F6DEECC1B6165C00078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit iOS SampleApp" */ = {
 			isa = XCConfigurationList;
@@ -1245,6 +1250,7 @@
 				1F6DEECE1B6165C00078DAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F6DEECF1B6165C00078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit iOS SampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -1253,6 +1259,7 @@
 				1F6DEED11B6165C00078DAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F6DEEF11B6165F80078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit OS Sample App" */ = {
 			isa = XCConfigurationList;
@@ -1261,6 +1268,7 @@
 				1F6DEEF31B6165F80078DAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F6DEEF41B6165F80078DAAF /* Build configuration list for PBXNativeTarget "Turn Kit OS Sample AppTests" */ = {
 			isa = XCConfigurationList;
@@ -1269,6 +1277,7 @@
 				1F6DEEF61B6165F80078DAAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
