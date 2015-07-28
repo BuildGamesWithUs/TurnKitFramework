@@ -54,6 +54,30 @@
 		1F6DEEFB1B61661B0078DAAF /* TurnKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6DEEF71B61661B0078DAAF /* TurnKit.swift */; };
 		1F6DEEFD1B6166720078DAAF /* TurnKitiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6DEE851B615C3B0078DAAF /* TurnKitiOS.framework */; };
 		1F6DEEFE1B6166790078DAAF /* TurnKitOSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6DEE671B615C080078DAAF /* TurnKitOSX.framework */; };
+		F4B074FD1B672B6000E8D0BF /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B074FC1B672B6000E8D0BF /* Turn.swift */; };
+		F4B074FE1B672B6000E8D0BF /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B074FC1B672B6000E8D0BF /* Turn.swift */; };
+		F4B074FF1B672B6000E8D0BF /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B074FC1B672B6000E8D0BF /* Turn.swift */; };
+		F4B075001B672B6000E8D0BF /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B074FC1B672B6000E8D0BF /* Turn.swift */; };
+		F4B075011B672B6000E8D0BF /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B074FC1B672B6000E8D0BF /* Turn.swift */; };
+		F4B075021B672B6000E8D0BF /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B074FC1B672B6000E8D0BF /* Turn.swift */; };
+		F4B075031B672B6000E8D0BF /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B074FC1B672B6000E8D0BF /* Turn.swift */; };
+		F4B075041B672B6000E8D0BF /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B074FC1B672B6000E8D0BF /* Turn.swift */; };
+		F4B075061B672BA900E8D0BF /* TurnQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B075051B672BA900E8D0BF /* TurnQueue.swift */; };
+		F4B075071B672BA900E8D0BF /* TurnQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B075051B672BA900E8D0BF /* TurnQueue.swift */; };
+		F4B075081B672BA900E8D0BF /* TurnQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B075051B672BA900E8D0BF /* TurnQueue.swift */; };
+		F4B075091B672BA900E8D0BF /* TurnQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B075051B672BA900E8D0BF /* TurnQueue.swift */; };
+		F4B0750A1B672BA900E8D0BF /* TurnQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B075051B672BA900E8D0BF /* TurnQueue.swift */; };
+		F4B0750B1B672BA900E8D0BF /* TurnQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B075051B672BA900E8D0BF /* TurnQueue.swift */; };
+		F4B0750C1B672BA900E8D0BF /* TurnQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B075051B672BA900E8D0BF /* TurnQueue.swift */; };
+		F4B0750D1B672BA900E8D0BF /* TurnQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B075051B672BA900E8D0BF /* TurnQueue.swift */; };
+		F4B0750F1B672D2600E8D0BF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0750E1B672D2600E8D0BF /* Config.swift */; };
+		F4B075101B672D2600E8D0BF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0750E1B672D2600E8D0BF /* Config.swift */; };
+		F4B075111B672D2600E8D0BF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0750E1B672D2600E8D0BF /* Config.swift */; };
+		F4B075121B672D2600E8D0BF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0750E1B672D2600E8D0BF /* Config.swift */; };
+		F4B075131B672D2600E8D0BF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0750E1B672D2600E8D0BF /* Config.swift */; };
+		F4B075141B672D2600E8D0BF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0750E1B672D2600E8D0BF /* Config.swift */; };
+		F4B075151B672D2600E8D0BF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0750E1B672D2600E8D0BF /* Config.swift */; };
+		F4B075161B672D2600E8D0BF /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B0750E1B672D2600E8D0BF /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +192,10 @@
 		1F6DEEEE1B6165F80078DAAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F6DEEEF1B6165F80078DAAF /* Turn_Kit_OS_Sample_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn_Kit_OS_Sample_AppTests.swift; sourceTree = "<group>"; };
 		1F6DEEF71B61661B0078DAAF /* TurnKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnKit.swift; sourceTree = "<group>"; };
+		F4B074FB1B672B5F00E8D0BF /* BuildAll-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BuildAll-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4B074FC1B672B6000E8D0BF /* Turn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = SOURCE_ROOT; };
+		F4B075051B672BA900E8D0BF /* TurnQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurnQueue.swift; sourceTree = SOURCE_ROOT; };
+		F4B0750E1B672D2600E8D0BF /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -340,6 +368,10 @@
 			isa = PBXGroup;
 			children = (
 				1F6DEEF71B61661B0078DAAF /* TurnKit.swift */,
+				F4B074FC1B672B6000E8D0BF /* Turn.swift */,
+				F4B074FB1B672B5F00E8D0BF /* BuildAll-Bridging-Header.h */,
+				F4B075051B672BA900E8D0BF /* TurnQueue.swift */,
+				F4B0750E1B672D2600E8D0BF /* Config.swift */,
 			);
 			name = TurnKitShared;
 			path = TurnKitiOSTests;
@@ -732,6 +764,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B075081B672BA900E8D0BF /* TurnQueue.swift in Sources */,
+				F4B075111B672D2600E8D0BF /* Config.swift in Sources */,
+				F4B074FF1B672B6000E8D0BF /* Turn.swift in Sources */,
 				1F6DEEF81B61661B0078DAAF /* TurnKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -740,7 +775,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B075091B672BA900E8D0BF /* TurnQueue.swift in Sources */,
 				1F6DEE791B615C080078DAAF /* TurnKitOSXTests.swift in Sources */,
+				F4B075121B672D2600E8D0BF /* Config.swift in Sources */,
+				F4B075001B672B6000E8D0BF /* Turn.swift in Sources */,
 				1F6DEEF91B61661B0078DAAF /* TurnKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -749,6 +787,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B075061B672BA900E8D0BF /* TurnQueue.swift in Sources */,
+				F4B0750F1B672D2600E8D0BF /* Config.swift in Sources */,
+				F4B074FD1B672B6000E8D0BF /* Turn.swift in Sources */,
 				1F6DEEFA1B61661B0078DAAF /* TurnKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -757,7 +798,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B075071B672BA900E8D0BF /* TurnQueue.swift in Sources */,
 				1F6DEE971B615C3B0078DAAF /* TurnKitiOSTests.swift in Sources */,
+				F4B075101B672D2600E8D0BF /* Config.swift in Sources */,
+				F4B074FE1B672B6000E8D0BF /* Turn.swift in Sources */,
 				1F6DEEFB1B61661B0078DAAF /* TurnKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -767,8 +811,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F6DEEB51B6165C00078DAAF /* GameScene.swift in Sources */,
+				F4B0750A1B672BA900E8D0BF /* TurnQueue.swift in Sources */,
 				1F6DEEB71B6165C00078DAAF /* GameViewController.swift in Sources */,
+				F4B075011B672B6000E8D0BF /* Turn.swift in Sources */,
 				1F6DEEB11B6165C00078DAAF /* AppDelegate.swift in Sources */,
+				F4B075131B672D2600E8D0BF /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -776,6 +823,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B0750B1B672BA900E8D0BF /* TurnQueue.swift in Sources */,
+				F4B075141B672D2600E8D0BF /* Config.swift in Sources */,
+				F4B075021B672B6000E8D0BF /* Turn.swift in Sources */,
 				1F6DEECB1B6165C00078DAAF /* Turn_Kit_iOS_SampleAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -784,7 +834,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B0750C1B672BA900E8D0BF /* TurnQueue.swift in Sources */,
 				1F6DEEDD1B6165F80078DAAF /* GameScene.swift in Sources */,
+				F4B075151B672D2600E8D0BF /* Config.swift in Sources */,
+				F4B075031B672B6000E8D0BF /* Turn.swift in Sources */,
 				1F6DEEDB1B6165F80078DAAF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -793,6 +846,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B0750D1B672BA900E8D0BF /* TurnQueue.swift in Sources */,
+				F4B075161B672D2600E8D0BF /* Config.swift in Sources */,
+				F4B075041B672B6000E8D0BF /* Turn.swift in Sources */,
 				1F6DEEF01B6165F80078DAAF /* Turn_Kit_OS_Sample_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1270,14 +1326,21 @@
 		F480F5831B61ED31008BD64B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TurnKitiOSTests/BuildAll-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F480F5841B61ED31008BD64B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TurnKitiOSTests/BuildAll-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -1372,6 +1435,7 @@
 				F480F5841B61ED31008BD64B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

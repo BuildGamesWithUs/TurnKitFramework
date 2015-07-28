@@ -7,3 +7,11 @@
 //
 
 import Foundation
+
+class TurnKit : NSObject {
+    var turnQueue : TurnQueue
+    override init() {
+        self.turnQueue = TurnQueue()
+    }
+    
+}
